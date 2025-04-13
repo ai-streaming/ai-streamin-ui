@@ -26,7 +26,7 @@ interface DashboardLayoutProps {
   children: React.ReactNode;
 }
 
-export const DashboardLayout = ({ children }: DashboardLayoutProps) => {
+export const Index = ({ children }: DashboardLayoutProps) => {
   const location = useLocation();
   const history = useHistory();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
@@ -157,4 +157,4 @@ export const DashboardLayout = ({ children }: DashboardLayoutProps) => {
   );
 };
 
-export default DashboardLayout;
+export default Index;
